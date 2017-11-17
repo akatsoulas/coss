@@ -29,6 +29,7 @@ MEDIA_ROOT = Path('media').resolve()
 # Application definition
 INSTALLED_APPS = [
     'coss.common',
+    'coss.auth',
     'coss.users',
 
     'coss.home',
