@@ -5,7 +5,7 @@ from django.contrib.auth import get_user_model
 from wagtail.wagtailcore.models import Site
 from wagtail.wagtailusers.forms import UserCreationForm, UserEditForm
 
-from coss.base.mozillians import BadStatusCode, MozilliansClient, ResourceDoesNotExist
+from coss.common.mozillians import BadStatusCode, MozilliansClient, ResourceDoesNotExist
 
 
 UserModel = get_user_model()
